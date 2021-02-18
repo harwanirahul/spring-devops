@@ -11,37 +11,25 @@ import javax.persistence.Table;
 public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-<<<<<<< HEAD
-=======
 
-
-
-
-
-
-
-
->>>>>>> 2874183ab872d2a0435c22b065a32ad03e095062
 	private Integer productId;
 
 	private String productName;
 
 	private Double price;
-<<<<<<< HEAD
 
-	private String Description;
-=======
 
-	private String description;
+	
 
 
 	private String description;
 
 
-	private String Description;
+	
 
 
->>>>>>> 2874183ab872d2a0435c22b065a32ad03e095062
+
+
 
 	public Product() {
 		// TODO Auto-generated constructor stub
