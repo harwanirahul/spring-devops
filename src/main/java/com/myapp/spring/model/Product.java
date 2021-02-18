@@ -1,4 +1,4 @@
-package com.myapp.spring.model;
+package com.myapp.spring;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,20 +11,30 @@ import javax.persistence.Table;
 public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98bacd7734fba1ccb80f7e1c98046ccac1bc9fed
 	private Integer productId;
+
 	private String productName;
+
 	private Double price;
+<<<<<<< HEAD
 	private String description;
+=======
+
+	private String Description;
+>>>>>>> 98bacd7734fba1ccb80f7e1c98046ccac1bc9fed
 
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public Product(String productName, Double price, String description) {
-		super();
 		this.productName = productName;
 		this.price = price;
-		this.description = description;
+		Description = description;
 	}
 
 	public Integer getProductId() {
@@ -52,11 +62,11 @@ public class Product {
 	}
 
 	public String getDescription() {
-		return description;
+		return Description;
 	}
 
 	public void setDescription(String description) {
-		this.description = description;
+		Description = description;
 	}
 
 }
