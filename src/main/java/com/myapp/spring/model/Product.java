@@ -18,12 +18,6 @@ public class Product {
 
 	private Double price;
 
-<<<<<<< HEAD
-	private String Description;
-=======
-
-	
-
 
 	private String Description;
 
@@ -31,9 +25,14 @@ public class Product {
 	
 
 
+	private String Description;
 
 
->>>>>>> 9d739638d1a8362fb4112bb69b2c5ba540291850
+	
+
+
+
+
 
 	public Product() {
 		// TODO Auto-generated constructor stub
