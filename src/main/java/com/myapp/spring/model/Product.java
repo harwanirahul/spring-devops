@@ -15,6 +15,10 @@ public class Product {
 
 
 
+
+
+
+
 	private Integer productId;
 
 	private String productName;
@@ -24,7 +28,11 @@ public class Product {
 	private String description;
 
 
+	private String description;
+
+
 	private String Description;
+
 
 
 	public Product() {
