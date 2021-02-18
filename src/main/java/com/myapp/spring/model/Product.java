@@ -23,17 +23,6 @@ public class Product {
 
 
 	
-
-
-	private String Description;
-
-
-	
-
-
-
-
-
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}
