@@ -21,7 +21,11 @@
 
 	<groupId>spring-devops</groupId>
 	<artifactId>spring-devops</artifactId>
+<<<<<<< HEAD
 	<version>0.0.2</version>
+=======
+	<version>0.0.10-SNAPSHOT</version>
+>>>>>>> initial_release
 	<packaging>war</packaging>
 	<name>spring-devops</name>
 	<description>Devops</description>

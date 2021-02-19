@@ -21,6 +21,11 @@ public class Product {
 
 	private String Description;
 
+<<<<<<< HEAD
+=======
+
+	
+>>>>>>> initial_release
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}
