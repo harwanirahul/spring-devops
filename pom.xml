@@ -14,14 +14,14 @@
 		<connection>scm:git:git@github.com:harwanirahul/spring-devops.git</connection>
 		<developerConnection>scm:git:git@github.com:harwanirahul/spring-devops.git</developerConnection>
 		<url>git@github.com:harwanirahul/spring-devops.git</url>
-		<tag>HEAD</tag>
+		<tag>v0.1.2</tag>
 	</scm>
 
 
 
 	<groupId>spring-devops</groupId>
 	<artifactId>spring-devops</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<packaging>war</packaging>
 	<name>spring-devops</name>
 	<description>Devops</description>
