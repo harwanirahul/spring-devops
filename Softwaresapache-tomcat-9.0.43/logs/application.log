@@ -702,3 +702,4 @@ Unconditional classes:
 2021-02-23 18:16:10.802 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
 2021-02-23 18:16:10.847 [INFO ] [restartedMain] c.m.s.SpringDevopsApplication - Started SpringDevopsApplication in 2.69 seconds (JVM running for 170.717)
 2021-02-23 18:16:10.856 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-02-23 18:59:35.372 [WARN ] [HikariPool-4 housekeeper] c.z.h.p.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=3m25s117ms64µs100ns).
