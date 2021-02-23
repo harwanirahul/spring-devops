@@ -11,28 +11,20 @@ import javax.persistence.Table;
 public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-
 	private Integer productId;
-
 	private String productName;
-
 	private Double price;
-
-
-	private String Description;
-
-
-
-
+	private String description;
 
 	public Product() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Product(String productName, Double price, String description) {
+		super();
 		this.productName = productName;
 		this.price = price;
-		Description = description;
+		this.description = description;
 	}
 
 	public Integer getProductId() {
@@ -60,11 +52,11 @@ public class Product {
 	}
 
 	public String getDescription() {
-		return Description;
+		return description;
 	}
 
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
 
 }
