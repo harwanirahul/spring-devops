@@ -4,7 +4,9 @@ node {
       git url: 'https://github.com/harwanirahul/spring-devops.git', branch: 'develop'
       mvnHome = tool 'maven'
    }
-   stage('Build') {
+   
+   
+ stage('Build') {
 if (isUnix()) {
 sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
 } else {
@@ -54,7 +56,6 @@ sh "docker tag ${ORG_NAME}/${APP_NAME}:${APP_VERSION} ${ORG_NAME}/${APP_NAME}:la
 }
 }
 }
-
 
    
 }
