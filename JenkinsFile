@@ -1,4 +1,4 @@
-node {
+node{
    def mvnHome
    stage('Prepare') {
       git url: 'https://github.com/harwanirahul/spring-devops.git', branch: 'develop'
